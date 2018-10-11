@@ -1,0 +1,566 @@
+.body {
+  background: white;
+}
+
+.header{}
+
+.header .header-container ul {
+  list-style: none;
+}
+
+.header .header-container .row {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  height: 50px;
+}
+.header .header-container .row ul li {
+  display: inline-block;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  width: 90px;
+  height: 25px;
+  text-align: center;
+}
+
+.header .header-container .row .left-buttons {
+  vertical-align: top;
+}
+
+.header .header-container .row .right-buttons {
+  right: 13px;
+  position: absolute;
+  top: -1px;
+}
+
+#NikePlus, #Jordan, #Hurley, #Converse {
+  border-left: none;
+}
+
+#Flag {
+  border: none;
+  margin-top: 0;
+ }
+
+#NikePlus-Account {
+  border: none;
+  width: 180px;
+}
+
+#Help {
+  border: none;
+  padding-left: 10px;
+}
+
+#Cart {
+  border: none;
+  margin-left: -20px;
+}
+
+.menu  {
+  position: relative;
+  justify-content: center;
+}
+
+.menu .logo {
+  display: inline-block;
+  text-align: left;
+  padding-left: 20px;
+}
+.menu .menu-container {
+  display: inline-block;
+  height: 40px;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 15%;
+}
+
+.menu .menu-container ul {
+  list-style: none;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.menu .menu-container ul li {
+  display: inline-block;
+}
+
+.menu .menu-container ul li a {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  letter-spacing: -.5px;
+  float: center;
+}
+
+.topnav {
+  display: inline-block;
+  float: right;
+}
+
+.topnav input[type=text] {
+  margin: 6px;
+  padding: 6px;
+  border: none;
+  font-size: 16px;
+  border: 1px lightgray solid;
+}
+
+.banner-font {
+  font-weight: 400;
+  font-family: OneNikeCurrency,'TradeGothicW01-BoldCn20 675334',Helvetica,Arial,sans-serif;
+}
+
+.slider-container {
+  background-color: #f7f7f7;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.slider-container .row {
+  height: 50px;
+  display: inline-block;
+  align-content: center center;
+}
+
+.slider-container .row h3 {
+  letter-spacing: -.03px;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.slider-container .row ul {
+  display: inline-block;
+  list-style: none;
+}
+
+.slider-container .row ul li {
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.slider-container .row ul li a {
+  display: inline-block;
+  text-decoration: underline;
+  color: black;
+  font-size: 11px;
+}
+
+.main-banner {
+  max-width: 100%;
+  height: 75vh;
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2018-ho/Home/1011/NBA_SB_HP_p1_d.jpg.transform/full-screen/NBA_SB_HP_p1_d.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: right;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.main-banner .container {
+  position: absolute;
+  padding-top: 375px;
+  padding-left: 200px;
+}
+
+.main-banner .container h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: -.3px;
+  margin: 0;
+  padding: 0;
+  line-height: 10px;
+}
+
+.main-banner .container h1 p {
+  font-weight: light;
+  font-size: 0.9375em;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.main-banner .container .button {
+  background-color: black;
+	color: white;
+	text-decoration: none;
+  margin-top: 200px;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: .01em;
+}
+
+.second-banner {
+  max-width: 100%;
+  height: 75vh;
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2018-ho/Home/1011/Blazer_Low_HP_p2_d.jpg.transform/full-screen/Blazer_Low_HP_p2_d.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.second-banner .container-2 {
+  position: absolute;
+  padding-top: 200px;
+  padding-bottom: 0px;
+  padding-left: 50px;
+}
+
+.second-banner .container-2 h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: -.3px;
+  margin: 0px;
+}
+
+.second-banner .container-2 h1 p {
+  font-weight: light;
+  font-size: 0.9375em;
+  letter-spacing: 0;
+  margin: 0px;
+}
+
+.second-banner .container-2 .button-2 {
+  background-color: white;
+	color: black;
+	text-decoration: none;
+  margin-top: 200px;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: .01em;
+}
+
+.middle-banner {
+  max-width: 100%;
+  height: 75vh;
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2018-ho/Home/1011/Training_HP_p3_d.jpg.transform/full-screen/Training_HP_p3_d.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: right;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.middle-banner .container-middle {
+  position: absolute;
+  padding-top: 150px;
+  padding-left: 950px;
+}
+
+.middle-banner .container-middle h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: -.3px;
+  margin: 0px;
+}
+
+.middle-banner .container-middle h1 p {
+  font-weight: light;
+  font-size: 0.9375em;
+  letter-spacing: 0;
+  margin: 0px;
+}
+
+.middle-banner .container-middle .button-middle {
+  background-color: white;
+	color: black;
+	text-decoration: none;
+  margin-top: 200px;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: .01em;
+}
+
+.third-banner {
+  max-width: 100%;
+  height: 75vh;
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2018-ho/Home/1011/Lebron_Utility_HP_P4_d.jpg.transform/full-screen/Lebron_Utility_HP_P4_d.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.third-banner .left-container {
+  position: absolute;
+  padding-top: 400px;
+  padding-left: 50px;
+}
+
+.third-banner .left-container h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: -.3px;
+  margin: 0px;
+}
+
+.third-banner .left-container h1 p {
+  font-weight: light;
+  font-size: 0.9375em;
+  letter-spacing: 0;
+}
+
+.third-banner .left-container .left-button {
+  background-color: white;
+	color: black;
+	text-decoration: none;
+  margin-top: 200px;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: .01em;
+}
+
+.third-banner .right-container {
+  position: absolute;
+  padding-top: 400px;
+  padding-left: 1100px;
+}
+
+.third-banner .right-container h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: -.3px;
+  margin: 0px;
+}
+
+.third-banner .right-container h1 p {
+  font-weight: light;
+  font-size: 0.9375em;
+  letter-spacing: 0;
+}
+
+.third-banner .right-container .right-button {
+  background-color: white;
+	color: black;
+	text-decoration: none;
+  margin-top: 200px;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: .01em;
+}
+
+.fourth-banner {
+  max-width: 100%;
+  height: 75vh;
+  background-image: url("https://content.nike.com/content/dam/one-nike/en_us/season-2018-ho/Home/1011/YA_HP_p5_d.jpg.transform/full-screen/YA_HP_p5_d.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.fourth-banner .container-4 {
+  position: absolute;
+  padding-top: 200px;
+  padding-left: 75px;
+}
+
+.fourth-banner .container-4 h1 {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2em;
+  letter-spacing: -.3px;
+  margin: 0px;
+}
+
+.fourth-banner .container-4 h1 p {
+  font-weight: light;
+  font-size: 0.9375em;
+  letter-spacing: 0;
+  margin: 0px;
+}
+
+.fourth-banner .container-4 .button-4 {
+  background-color: white;
+	color: black;
+	text-decoration: none;
+  margin-top: 200px;
+  padding: 10px;
+  font-weight: bold;
+  letter-spacing: .01em;
+}
+
+.column-panel {
+  width: 100%;
+  margin-top: 100px;
+  padding-left: 19%;
+  padding-right: 17.5%;
+  position: relative;
+}
+
+.column-panel .row .link-list {
+  border-right: 1px #ebebeb solid;
+  padding-right: 110px;
+  padding-left: 10px;
+  position: relative;
+}
+
+.column-panel .row ul {
+  list-style: none;
+}
+
+.column-panel .row ul li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.column-panel .row ul li a {
+  text-decoration: none;
+  size: 6px;
+  color: #666;
+}
+
+#Icons, #Shoes, #Kids, #Featured {
+  color: black;
+  size: 15px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.drop-down {
+  display: inline-block;
+}
+
+.drop-down ul {
+  color: black;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.drop-down ul li a{
+  color: grey;
+  text-decoration: none;
+  font-weight: none;
+}
+
+.col-xs-3 .drop-down {
+  border-right: gray;
+}
+
+.end-panel {
+  background-color: #191919;
+  width: 100%;
+  position: relative;
+}
+
+.end-panel .footer-container {
+  height: 350px;
+}
+
+.end-panel .footer-container .row {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.end-panel .footer-container .row .footer-drop ul li a {
+  font-size: 13px;
+}
+
+.end-panel .footer-container .row .footer-drop ul {
+  list-style: none;
+  line-height: 1.5em;
+}
+
+#footer-1 ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: none;
+}
+
+#footer-2 ul li a {
+  color: #999;
+  text-decoration: none;
+  font-weight: none;
+}
+
+#footer-3 ul li a {
+  color: #999;
+  text-decoration: none;
+  font-weight: none;
+}
+
+.end-panel .footer-buttons {
+  position: absolute;
+  padding-left: 700px;
+  padding-bottom: 350px;
+  text-align: right;
+}
+
+.end-panel .footer-buttons ul li {
+  display: inline-block;
+  padding: -30px;
+}
+
+.end-panel .bottom-container {
+  height: 100px;
+  background-color: #191919;
+  border-top: .5px #444 solid;
+  position: relative;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.end-panel .bottom-container .row-bottom {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  vertical-align: top;
+}
+
+.end-panel .bottom-container .row-bottom ul li{
+  list-style: none;
+  display: inline-block;
+  font-size: .625em;
+}
+
+.end-panel .bottom-container .row-bottom .left-side {
+  top: 0px;
+}
+
+.end-panel .bottom-container .row-bottom .left-side ul li a {
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+  color: #999;
+}
+
+.end-panel .bottom-container .row-bottom .right-side {
+  right: 13px;
+  position: absolute;
+  top: 0px;
+}
+
+
+.end-panel .bottom-container .row-bottom .right-side ul li a{
+  text-decoration: none;
+  display: inline-block;
+  list-style: none;
+  color: #999;
+}
